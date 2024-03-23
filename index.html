@@ -1,0 +1,115 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="index.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+            <title>Document</title>
+        </head>
+        <body>
+            <div class="game">
+                <div class="container">
+                    <div class="heading">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                        <div class="score">
+                            <p>Score</p>
+                            <p id="count"></p>
+                        </div>
+                    </div>
+                </div>
+            <div class="play-section">
+                <div class="container">
+                    <div  id="game-rule">
+                        <div class="text">
+                            <p>RULES</p>
+                            <div id="close-icon">
+                            <a href=""><img src="images/icon-close.svg" alt="" id="close"></a>
+                            </div>
+                        </div>
+                        <div class="image-wrapper">
+                            <img src="images/image-rules.svg" alt="">
+                        </div>  
+                    </div>
+                    <div class="chose" id="select">
+                    <div class="content">
+                        <div class="paper">
+                            <div class="round">
+                                <a href="#" id="paper-img"><img src="images/icon-paper.svg" alt="" ></a>
+                            </div>
+                        </div>
+                        <div class="scissor">
+                            <div class="round">
+                                <a href="#" id="scissor-img"> <img src="images/icon-scissors.svg" alt="" ></a>
+                            </div>
+                        </div>
+                        <div class="rock">
+                            <div class="round">
+                                <a href="#"  id="rock-img"> <img src="images/icon-rock.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="play-game">
+                        <div class="player">
+                           <p id="player-para">YOU PICKED</p>
+                           <div class="player-paper" id="paper-player">
+                            <div class="player-round">
+                                <a href=""><img src="images/icon-paper.svg" alt=""></a>
+                            </div>
+                              </div>
+                             <div class="player-scissor" id="scissor-player">
+                                 <div class="player-round">
+                                      <a href=""> <img src="images/icon-scissors.svg" alt=""></a>
+                                  </div>
+                             </div>
+                             <div class="player-rock" id="rock-player">
+                                <div class="player-round">
+                                  <a href=""> <img src="images/icon-rock.svg" alt=""></a>
+                              </div>
+                             </div>
+                         </div>
+
+                            <div class="lose" id="lose-btn">
+                               <p id="lose-para">YOU LOSE</p>
+                               <button id="play-again-btn"><a href="#">PLAY AGAIN</a></button>
+                            </div>
+            
+                            <div class="computer">
+                               <p id="computer-para">THE HOUSE PICKED</p>
+                               <div class="player-paper" id="computer-paper">
+                                  <div class="player-round" >
+                                     <a href=""><img src="images/icon-paper.svg" alt=""></a>
+                                   </div>
+                                 </div>
+                                <div class="player-scissor" id="computer-scissor">
+                                  <div class="player-round">
+                                     <a href=""> <img src="images/icon-scissors.svg" alt=""></a>
+                                    </div>
+                                 </div>
+                            <div class="player-rock" id="computer-rock">
+                               <div class="player-round">
+                                  <a href=""> <img src="images/icon-rock.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="mobile" id="mobile_lose-btn">
+                    <p id="lose-para">YOU LOSE</p>
+                    <button id="mobile-play-again"><a href="#">PLAY AGAIN</a></button>
+                 </div>
+                    <div class="rules-btn">
+                        <button id="rules"><a href="#">RULES</a></button>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+            <script src="code.js"></script>
+        </body>
+        </html>
